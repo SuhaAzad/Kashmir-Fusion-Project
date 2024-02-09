@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dokdo&family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    color: burlywood;
+}
+.main{
+    padding-left: 105px;
+    /* background-image: url('images/background.jpg'); */
+}
+
+/* .heading1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Dokdo';
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top:15px;
+    background-color:rgb(133, 105, 68) ;
+} */
+.header1{
+    display: flex;
+    justify-content: space-evenly;
+    background:linear-gradient(rgba(37, 37, 37, 0.8), rgba(28, 26, 26, 0.8)),rgb(144, 130, 114);
+    background-color: rgb(145, 133, 119);
+    padding: 10px 2px;
+}
+.header1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.heading2{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Dokdo';
+    letter-spacing: 45px;
+    text-align: center;
+    background-color: rgb(134, 118, 97);
+    background:linear-gradient(rgba(37, 37, 37, 0.8), rgba(28, 26, 26, 0.8)),rgb(134, 118, 97);
+    padding: 20px 0px;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Dokdo';
+    padding-top:50px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 300px;
+    column-rule-color: rgb(133, 105, 68);
+}
+.culture{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background:linear-gradient(rgba(46, 38, 16, 0.8), rgba(63, 48, 28, 0.8)),url('images/bgpainting.jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+    position: sticky;
+}
+.culture .images{
+    width:350px;
+    z-index:1;
+}
+.culture .images .i1{
+    width: 100px;
+    height: 90px;
+    border: 2px solid rgb(114, 116, 108);
+}
+.culture .images .i2{
+    width: 150px;
+    height: 120px;
+}
+.culture .images .i3{
+    width: 120px;
+    height: 90px;
+    z-index: 0;
+    border: 2px solid rgb(98, 114, 51);
+    margin-left: 30px;
+    
+}
+.culture .images .i4{
+    width: 140px;
+    height: 90px;
+    z-index: 2;
+    border:2px solid rgb(77, 75, 75);
+    margin-top: -20px;
+}
+.culture .images .i5{
+    width: 130px;
+    height: 100px;
+    z-index: 0;
+    margin-left: 10px;
+}
+.culture .text{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    width: 350px;
+    color: rgb(221, 217, 212);
+    text-transform: none;
+    line-height: 40px;
+    text-align: right;
+    padding-left: 20px;
+}
+img{
+    width: 250px;
+    height: 200px;
+    border:1px solid burlywood;
+}
+a:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(37, 37, 37, 0.8), rgba(28, 26, 26, 0.8)), url(images/bg.webp) no-repeat center/cover;
+    backdrop-filter: blur(3px);
+}
+.head img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: none;
+}
+
+footer{
+    background-color: rgb(35, 34, 34);
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+}
